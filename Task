@@ -1,0 +1,9 @@
+sent2
+def append_word_at_position(word, position):
+    sent2.insert(position, word)
+        
+new_word = input("Enter the new word: ")
+position = int(input("Enter the position to insert the word: "))
+append_word_at_position(new_word, position)
+    
+print(sent2)
